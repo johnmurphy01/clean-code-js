@@ -1,0 +1,29 @@
+{
+  "name": "clean-code",
+  "version": "1.0.0",
+  "description": "Clean Code examples in JavaScript and TypeScript",
+  "main": "prettier.config.js",
+  "dependencies": {
+    "prettier": "^1.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnmurphy01/clean-code-js.git"
+  },
+  "keywords": [
+    "clean",
+    "code",
+    "programming",
+    "education"
+  ],
+  "author": "John Murphy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnmurphy01/clean-code-js/issues"
+  },
+  "homepage": "https://github.com/johnmurphy01/clean-code-js#readme"
+}
