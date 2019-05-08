@@ -3,3 +3,7 @@ function copyChars(a1, a2) {
     a2[i] = a1[i]
   }
 }
+
+getActiveAccount()
+getActiveAccounts()
+getActiveAccountInfo()

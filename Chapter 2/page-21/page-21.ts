@@ -6,3 +6,13 @@
     }
   }
 }
+
+getActiveAccount()
+getActiveAccounts()
+getActiveAccountInfo()
+
+function getActiveAccount() {}
+
+function getActiveAccounts() {}
+
+function getActiveAccountInfo() {}
