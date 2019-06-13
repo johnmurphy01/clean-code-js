@@ -1,6 +1,10 @@
 // in order to avoid errors about duplicate block-scoped variables and functions
 ;() => {
-  class WikiPage {}
+  class WikiPage {
+    getHtml(): string {
+      return ''
+    }
+  }
 
   function includeSetupAndTeardownPages(pageData: WikiPage, isSuite: boolean) {}
 
@@ -8,7 +12,7 @@
     return true
   }
 
-  function renderPageWithSetupsAndTeardowns(pageData, isSuite) {
+  function renderPageWithSetupsAndTeardowns(pageData: WikiPage, isSuite: boolean): string {
     try {
       if (isTestPage(pageData)) {
         includeSetupAndTeardownPages(pageData, isSuite)
